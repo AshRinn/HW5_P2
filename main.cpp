@@ -11,9 +11,9 @@ int main() {
 // declared variables 
   int dataTemp;
   // load all data in a while loop
-  while (!inFile.eof())
+  while (inFile >> dataTemp)
     {
-      inFile >> dataTemp;
+      
       cout << dataTemp << endl;
       
     }
