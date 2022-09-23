@@ -31,4 +31,7 @@ int main() {
         break;
       }
     }
+  cout<< "The sume of the valid data is: "<< sumData<< endl;
+  cout << "The number of valid data points is: "<< counter<< endl;
+  cout << "The average of the valid data is: "<< (sumData/counter)<< endl;
 }
